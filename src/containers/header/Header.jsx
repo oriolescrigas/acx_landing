@@ -9,17 +9,16 @@ const HEader = () => {
     <div className="gpt3__header section__padding" id="home">
 
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+        <h1 className="gradient__text">ACX: Chatbots entrenados con Inteligencia Artificial para un servicio de atención al cliente personalizado </h1>
+        <p>Revolucione su servicio de Atención al Cliente con Chatbots personalizados y entrenados con los datos e información de su negocio</p>
 
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started</button>
+          <button type="button" onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfgVIEb4c7zTqW2-XIpZi7A4xqwQLdy1ybEGuMCPM4mjwh45w/viewform?usp=sf_link', '_blank')}>Solicita Prueba</button>
         </div>
 
         <div className="gpt3__header-content__people">
           <img src={people} alt="people" />
-          <p>1,600 people requested access a visit in last 24 hours</p>
+          <p>Todo el mundo está empezando a usarlo</p>
         </div>
       </div>
 

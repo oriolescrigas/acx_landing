@@ -42,15 +42,23 @@
     word-spacing: 2px;
 }
 
+.gpt3__footer-btn a {
+    font-size: 18px;
+    font-family: var(--font-family);
+    line-height: 21px;
+    color: #fff;
+    word-spacing: 2px;
+}
+
 .gpt3__footer-links {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .gpt3__footer-links div {
@@ -113,6 +121,22 @@
     font-family: var(--font-family);
     line-height: 15px;
     color: #fff;
+}
+
+.gpt3__footer-copyright img {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+    margin: 0.5rem 0.5rem;
+}
+
+.gpt3__footer-copyright_reserved {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+    margin: 0.5rem 0.5rem;
 }
 
 @media screen and (max-width: 850px) {

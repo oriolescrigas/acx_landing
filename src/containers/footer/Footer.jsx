@@ -6,44 +6,51 @@ const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
-        <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+        <h1 className="gradient__text">¿Quieres dar un paso hacia el futuro antes que los demás?</h1>
       </div>
 
       <div className="gpt3__footer-btn">
-        <p>Request Early Access</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgVIEb4c7zTqW2-XIpZi7A4xqwQLdy1ybEGuMCPM4mjwh45w/viewform" target="_blank" rel="noreferrer">Solicita prueba de nuestro servicio</a>
       </div>
 
       <div className="gpt3__footer-links">
-        <div className="gpt3__footer-links_logo">
+        {/*<div className="gpt3__footer-links_logo">
           <img src={gpt3Logo} alt="gpt3_logo" />
-          <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
-        </div>
+          <p>Terms & Conditions </p>
+          <p>Privacy Policy</p>
+          <p>Contact</p>
+          <p> All Rights Reserved</p>
+  </div>*/}
 
-        <div className="gpt3__footer-links_div">
+        {/*<div className="gpt3__footer-links_div">
           <h4>Links</h4>
           <p>Overons</p>
           <p>Social Media</p>
           <p>Counters</p>
           <p>Contact</p>
-        </div>
+        </div>*/}
 
-        <div className="gpt3__footer-links_div">
+        {/*<div className="gpt3__footer-links_div">
           <h4>Company</h4>
           <p>Terms & Conditions </p>
           <p>Privacy Policy</p>
           <p>Contact</p>
-        </div>
+      </div>*/}
 
-        <div className="gpt3__footer-links_div">
+        {/*<div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
           <p>Crechterwoord K12 182 DK Alknjkcb</p>
           <p>085-132567</p>
           <p>info@payme.net</p>
-        </div>
+      </div>*/}
       </div>
 
       <div className="gpt3__footer-copyright">
-        <p>@2021 GPT-3. All rights reserved.</p>
+        <img src={gpt3Logo} alt="gpt3_logo" />
+        <p>Terms & Conditions </p>
+        <p>Privacy Policy</p>
+        <p>Contact</p>
+        <p className="gpt3__footer-copyright_reserved">@2023 solucionsdedades.cat All rights reserved.</p>
       </div>
 
     </div>

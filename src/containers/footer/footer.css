@@ -123,6 +123,13 @@
     color: #fff;
 }
 
+.gpt3__footer-copyright a {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+}
+
 .gpt3__footer-copyright img {
     font-size: 12px;
     font-family: var(--font-family);

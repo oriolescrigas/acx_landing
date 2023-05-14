@@ -37,6 +37,21 @@ background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 
     -webkit-text-fill-color: transparent;
 }
 
+.subtitle__color_h3{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
+
+.subtitle__color_h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 30px;
+    color: #ff8A71;
+}
+
 .section__padding {
     padding: 4rem 6rem;
 }

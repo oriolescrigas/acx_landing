@@ -47,9 +47,8 @@ const Footer = () => {
 
       <div className="gpt3__footer-copyright">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
+        <a href="/terms" target="_blank" rel="noreferrer"><br/>Términos y Condiciones</a>
+        <a href="/privacy" target="_blank" rel="noreferrer"><br/>Política de Privacidad</a>
         <p className="gpt3__footer-copyright_reserved">@2023 solucionsdedades.cat All rights reserved.</p>
       </div>
 

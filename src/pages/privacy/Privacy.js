@@ -6,7 +6,7 @@ const Privacy = () => {
             <div className="gpt3__header-content">
                 <h1 className="gradient__text">Términos y Condiciones de Uso</h1>
                 <h4 className="subtitle__color_h3"> Fecha de la última actualización efectiva: 14 Mayo, 2023</h4>
-                <p>En [Nombre de la Empresa], valoramos su privacidad y nos comprometemos a proteger sus datos personales. Esta Política de Privacidad describe cómo recopilamos, utilizamos, almacenamos y protegemos la información que recopilamos de nuestros usuarios y clientes.</p>
+                <p>En <b>Atenció Client Xatbot (ACX)</b>, valoramos su privacidad y nos comprometemos a proteger sus datos personales. Esta Política de Privacidad describe cómo recopilamos, utilizamos, almacenamos y protegemos la información que recopilamos de nuestros usuarios y clientes.</p>
 
                 <br/>
                 <h3 className="subtitle__color_h4">Información que recopilamos</h3>

@@ -1,6 +1,5 @@
 import React from 'react';
 import './footer.css';
-import gpt3Logo from '../../assets/logo.svg';
 
 const Footer = () => {
   return (
@@ -45,11 +44,10 @@ const Footer = () => {
       </div>*/}
       </div>
 
-      <div className="gpt3__footer-copyright">
-        <img src={gpt3Logo} alt="gpt3_logo" />
-        <a href="/terms" target="_blank" rel="noreferrer"><br/>Términos y Condiciones</a>
-        <a href="/privacy" target="_blank" rel="noreferrer"><br/>Política de Privacidad</a>
-        <p className="gpt3__footer-copyright_reserved">@2023 solucionsdedades.cat All rights reserved.</p>
+      <div className="gpt3__footer-copyright">        
+        <a href="https://malleable-decade-77f.notion.site/T-rminos-y-Condiciones-de-Uso-a58e356e9d994f5b84856e1c3bc8b6dc" target="_blank" rel="noreferrer"><br/>Términos y Condiciones</a>
+        <a href="https://malleable-decade-77f.notion.site/Pol-tica-de-Privacidad-f9e3835e9912433bb9b3c46535dcbf13" target="_blank" rel="noreferrer"><br/>Política de Privacidad</a>
+        <p className="gpt3__footer-copyright_reserved">@2023 | hola@acxbot.online | All rights reserved.</p>
       </div>
 
     </div>
